@@ -8,6 +8,7 @@ public class HomePage extends PageBase{
         super(driver);
     }
     private final By dashBoardLabel = By.tagName("h6");
+    private final By adminMenuItem =By.linkText("Admin");
 
 
 
@@ -17,4 +18,11 @@ public class HomePage extends PageBase{
         return
         isDisplayed(dashBoardLabel);
     }
+    public boolean clickAdminMenuItemIsDisplayed(){return
+                isDisplayed(adminMenuItem);
+    }
+    public void clickAdminMenuItem(){
+        click(adminMenuItem);
+    }
+
 }

@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1d9a96f-09fa-46ca-a3e5-4af177a02be5" name="Changes" comment="Initializing Automation project adding dependencies.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Tests/LoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Pages/AdminMenuItemPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Tests/createUserTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Pages/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +43,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "TestNG.LoginTests.executor": "Run",
     "TestNG.LoginTests.userLogin.executor": "Run",
+    "TestNG.createUserTests.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
@@ -51,12 +56,29 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.createUserTests">
+    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHRMAutomationPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Tests.createUserTests" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.Tests.LoginTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTests.userLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OrangeHRMAutomationPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Tests.*" />
+          <option name="PATTERN" value="com.Tests.createUserTests" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,8 +92,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="createUserTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHRMAutomationPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.Tests.createUserTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.createUserTests" />
+        <item itemvalue="TestNG.LoginTests" />
         <item itemvalue="TestNG.LoginTests.userLogin" />
       </list>
     </recent_temporary>
